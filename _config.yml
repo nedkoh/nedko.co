@@ -1,0 +1,32 @@
+title: Nedko Hristov
+description: Building scalable technology—and sustainable teams.
+url: "https://nedko.co" # update when live
+baseurl: ""             # leave blank for root
+timezone: America/Chicago
+
+markdown: kramdown
+permalink: /writing/:year/:month/:day/:title/
+
+collections:
+  guides:
+    output: true
+    permalink: /guides/:title/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+      type: guides
+    values:
+      layout: post
+
+# Disable plugins for maximum GitHub Pages compatibility
+plugins: []
