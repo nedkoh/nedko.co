@@ -46,12 +46,12 @@ Personal website for Nedko Hristov — a space for thoughtful writing, practical
 
 2. Install dependencies:
    ```bash
-   gem install bundler jekyll
+   bundle install
    ```
 
 3. Run the local server:
    ```bash
-   jekyll serve
+   bundle exec jekyll serve
    ```
 
 4. Open [http://localhost:4000](http://localhost:4000) in your browser.
@@ -59,7 +59,7 @@ Personal website for Nedko Hristov — a space for thoughtful writing, practical
 ### Live Reload (optional)
 
 ```bash
-jekyll serve --livereload
+bundle exec jekyll serve --livereload
 ```
 
 ## Making Changes and Deploying
@@ -75,7 +75,7 @@ jekyll serve --livereload
 
 3. **Test locally** to verify changes look correct:
    ```bash
-   jekyll serve
+   bundle exec jekyll serve
    ```
 
 4. **Commit and push** your changes:
