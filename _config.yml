@@ -1,8 +1,25 @@
-title: Nedko Hristov
-description: Building scalable technology—and sustainable teams.
-url: "https://nedko.co" # update when live
+title: Hilton Head Island Vacation Guide | Beach, Golf & Rentals
+description: Your complete guide to Hilton Head Island, SC - discover pristine beaches, world-class golf courses, and premium vacation rentals. Plan your perfect Lowcountry getaway.
+url: "https://beachhiltonhead.com"
 baseurl: ""             # leave blank for root
-timezone: America/Chicago
+timezone: America/New_York
+
+# SEO Configuration
+keywords:
+  - Hilton Head Island vacation
+  - Hilton Head beach vacation
+  - Hilton Head golf courses
+  - Hilton Head vacation rentals
+  - Hilton Head short term rentals
+  - South Carolina beach vacation
+  - Lowcountry vacation
+  - Sea Pines resort
+  - Harbour Town golf
+  - Palmetto Dunes
+  - Coligny Beach
+  - family beach vacation SC
+locale: en_US
+author: Nedko Hristov
 
 markdown: kramdown
 permalink: /writing/:year/:month/:day/:title/
